@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio website complete</title>
+</head>
+<style>
+    .home__blob-img {
+    border-radius: 50%;
+    .skills__express, .skills__ejs, .skills__java, .skills__springboot, .skills__typescript, .skills__angular, .skills__nodejs, .skills__mongodb,
+.skills__hbase, .skills__cassandra, .skills__supervised, .skills__unsupervised, .skills__hadoop, .skills__spark {
+    width: 100%;
+    height: 10px;
+    background-color: #dcdcdc;
+    position: relative;
+    margin: 10px 0;
+}
+
+.skills__express::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    background-color: #4caf50;
+}
+
+.skills__ejs::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    background-color: #4caf50;
+}
+
+.skills__java::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+.skills__springboot::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: #f44336;
+}
+
+.skills__typescript::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: #f44336;
+}
+
+.skills__angular::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+.skills__nodejs::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+.skills__mongodb::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+.skills__hbase::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: #f44336;
+}
+
+.skills__cassandra::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+.skills__supervised::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #ff9800;
+}
+
+
+}
+
+</style>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">MOUTAWASSIT ABDELALI</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">MOUTAWASSIT</span><br> Web Designer
+                </h1>
+                <button class="button" onclick="window.open('./assets/MOUTAWASSIT CV.pdf')">
+                    Download CV
+                </button>
+                <button class="button" onclick="window.open('./assets/MOUTAWASSIT CV.pdf')">
+                    Download Essay innovation Week
+                </button>
+                <br><br>
+                <button class="button" onclick="window.open('./assets/Cover Lettre.pdf')">
+                    Download Cover Lettre
+                </button>
+                <button class="button" onclick="window.open('./assets/Essay Course.pdf')">
+                    Download Essay Course
+                </button>
+                
+            </div>
+
+            <div class="home__social" style="position: relative;top: -30px;">
+                <a href="www.linkedin.com/in/moutawassit-abdelali-98bb95267" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Abdelali-Moutawassit/" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <image class="home__blob-img" x="50" y="60" width="300" height="300"
+                            href="assets/img/ProfileCV.jpg" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/ProfileCV.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'am MOUTAWASSIT</h2>
+                    <p class="about__text">Hi! I'm a student specializing in Big Data and Cloud Computing with a background in software engineering. Over the past
+                    four years, I've developed skills in data science, focusing on analyzing complex datasets and deriving valuable
+                    insights. I thrive on challenges and am passionate about leveraging data to drive innovation and decision-making..</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+        
+                <!-- FullStack Development Skills -->
+                <div>
+                    <h2 class="skills__subtitle">FullStack Development</h2>
+                    <p class="skills__text">Experienced in building robust web applications using various technologies.</p>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">Express</span>
+                        </div>
+                        <div class="skills__bar skills__express"></div>
+                        <div>
+                            <span class="skills__percentage">Experienced</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">EJS</span>
+                        </div>
+                        <div class="skills__bar skills__ejs"></div>
+                        <div>
+                            <span class="skills__percentage">Experienced</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__java"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-spring-boot skills__icon'></i>
+                            <span class="skills__name">Spring Boot</span>
+                        </div>
+                        <div class="skills__bar skills__springboot"></div>
+                        <div>
+                            <span class="skills__percentage">Basic</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-typescript skills__icon'></i>
+                            <span class="skills__name">TypeScript</span>
+                        </div>
+                        <div class="skills__bar skills__typescript"></div>
+                        <div>
+                            <span class="skills__percentage">Basic</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-angular skills__icon'></i>
+                            <span class="skills__name">Angular</span>
+                        </div>
+                        <div class="skills__bar skills__angular"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">NodeJS</span>
+                        </div>
+                        <div class="skills__bar skills__nodejs"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-mongodb skills__icon'></i>
+                            <span class="skills__name">MongoDB</span>
+                        </div>
+                        <div class="skills__bar skills__mongodb"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Data Science Skills -->
+                <div>
+                    <h2 class="skills__subtitle">Data Science</h2>
+                    <p class="skills__text">Proficient in analyzing and interpreting complex data to drive actionable insights.
+                    </p>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">HBase</span>
+                        </div>
+                        <div class="skills__bar skills__hbase"></div>
+                        <div>
+                            <span class="skills__percentage">Basic</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">Cassandra</span>
+                        </div>
+                        <div class="skills__bar skills__cassandra"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-brain skills__icon'></i>
+                            <span class="skills__name">Supervised Algorithms</span>
+                        </div>
+                        <div class="skills__bar skills__supervised"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-brain skills__icon'></i>
+                            <span class="skills__name">Unsupervised Algorithms</span>
+                        </div>
+                        <div class="skills__bar skills__unsupervised"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">Hadoop</span>
+                        </div>
+                        <div class="skills__bar skills__hadoop"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">Spark</span>
+                        </div>
+                        <div class="skills__bar skills__spark"></div>
+                        <div>
+                            <span class="skills__percentage">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/Projet1.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/Projet2.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/Projet3.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">MOUTAWASSIT</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
